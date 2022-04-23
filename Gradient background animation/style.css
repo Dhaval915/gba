@@ -1,0 +1,31 @@
+.animated-background{
+	height:100%;
+	width:100%;
+}
+body{
+	text-align:CENTER;
+	text-transform:uppercase;
+	margin:350px 0;
+	background: linear-gradient(
+	to right,#833ab4,
+	#fd1d1d,#fcb045);
+	background-size: 400% 400%;
+	animation: animate-background 10s infinite ease-in-out;
+}
+h1{
+	color:white;
+}
+@keyframes animate-background{
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+/* DESIGN BY SUTHAR DHAVAL */
+/* https://github.com/Dhaval915 */
